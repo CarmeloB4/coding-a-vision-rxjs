@@ -4,7 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create-operator": "node -r esm scripts/resources/02-creation/01-create-operator.js",
+    "from-operator": "node -r esm scripts/resources/02-creation/02-from-operator.js",
+    "interval-operator": "node -r esm scripts/resources/02-creation/03-interval-operator.js",
+    "filter-operator": "node -r esm scripts/resources/03-operators/01-filter-operator.js",
+    "map-operator": "node -r esm scripts/resources/03-operators/02-map-operator.js",
+    "filter-map-operator": "node -r esm scripts/resources/03-operators/03-filter-map-operator.js",
+    "reduce-operator": "node -r esm scripts/resources/03-operators/04-reduce-operator.js",
+    "throwError-operator": "node -r esm scripts/resources/03-operators/05-throwError-operator.js",
+    "cold-hot-observable": "node -r esm scripts/resources/03-operators/06-cold-hot-observable.js",
+    "subject": "node -r esm scripts/resources/03-operators/07-subject.js",
+    "concat-operator": "node -r esm scripts/resources/04-combining/01-concat-operator.js",
+    "merge-operator": "node -r esm scripts/resources/04-combining/02-merge-operator.js",
+    "flatMap-operator": "node -r esm scripts/resources/04-combining/03-flatMap-operator.js",
+    "flatMap-vs-switchMap-operator": "node -r esm scripts/resources/04-combining/05-flatMap-vs-switchMap-operator.js"
   },
   "keywords": [],
   "author": "",
